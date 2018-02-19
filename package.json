@@ -1,0 +1,43 @@
+{
+  "name": "russell-image",
+  "version": "0.0.0-development",
+  "description": "Responsive image component for russell",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && nsp check && istanbul cover tape test.js && codecov",
+    "commit": "git-cz",
+    "setup": "npm i && semantic-release-cli setup",
+    "lint-prose": "write-good *.md",
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/santiagogil/russell-image.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santiagogil/russell-image/issues"
+  },
+  "homepage": "https://github.com/santiagogil/russell-image#readme",
+  "devDependencies": {
+    "tape": "*",
+    "standard": "*",
+    "nsp": "*",
+    "commitizen": "*",
+    "cz-conventional-changelog": "*",
+    "semantic-release-cli": "*",
+    "codecov": "*",
+    "istanbul": "*",
+    "write-good": "*",
+    "semantic-release": "^12.4.1",
+    "travis-deploy-once": "^4.3.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}
