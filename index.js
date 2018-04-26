@@ -1,7 +1,7 @@
 var rv = require('russell-view')
 
 module.exports = function rImage (state) {
-  return rv`<picture><source 
+  return rv`<picture class='${state.class}'><source 
     srcset="${state.src}-1920.webp 1920w,
             ${state.src}-960.webp 960w,
             ${state.src}-480.webp 480w,
@@ -9,7 +9,7 @@ module.exports = function rImage (state) {
     sizes="(max-width: 960px) 100vw,
            (min-width: 960px) 960px"
     type="image/webp"
-  ><img 
+  ><img class='${state.class}' 
     srcset="${state.src}-1920.jpg 1920w,
             ${state.src}-960.jpg 960w,
             ${state.src}-480.jpg 480w,
