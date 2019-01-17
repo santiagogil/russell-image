@@ -31,7 +31,7 @@
     "semantic-release-cli": "*",
     "codecov": "*",
     "istanbul": "*",
-    "write-good": "*",
+    "write-good": ">=1.0.1",
     "semantic-release": "^15.0.0",
     "travis-deploy-once": "^5.0.0"
   },
