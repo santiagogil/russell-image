@@ -29,7 +29,7 @@
     "commitizen": "*",
     "cz-conventional-changelog": "*",
     "semantic-release-cli": "*",
-    "codecov": "*",
+    "codecov": ">=3.6.0",
     "istanbul": "*",
     "write-good": "*",
     "semantic-release": "^15.0.0",
